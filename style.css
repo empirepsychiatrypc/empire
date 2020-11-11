@@ -5,19 +5,25 @@
 body {
     margin: 0;
     padding: 0;
-
+    font-family: 'Open Sans', sans-serif;
+   
 }
 
-
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel Decorative', cursive;
+}
 
 nav{
     width: 100%;
     height: auto;
-    background:#0e6c9454;
+    background:#d3dbdf54;
     position: absolute;
     top: 0;
     left: 0;
   z-index: 99;
+  animation: fadeInDown ease 3s ;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
 }
 
 .innerNav{
@@ -33,6 +39,12 @@ nav{
 
 }
 
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .links ul {
     list-style-type: none;
     display: flex;
@@ -40,6 +52,14 @@ nav{
     align-items: center;
     width: 100%;
     height: 100%;
+}
+
+.links li{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .links a {
@@ -81,26 +101,73 @@ video {
     position: absolute;
     top: 0;
     left: 0;
+    animation: fadeInAnimation ease 3s ;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
   }
 
   .viewport-header {
     position: relative;
-    height: 100vh;
-    text-align: center;
+    width: 100%;
+    height: 90vh;
+    text-align: left;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 0 50px 0;
+    padding-top: 100px;
+     animation: fadeInLeft ease 3s ;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
   }
+
+  @keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+@keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(-1000px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ } 
+
+ @keyframes fadeInDown {
+    0% {
+       opacity: 0;
+       transform: translateY(-1000px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ } 
+
+
 
   .viewport-header h1{
       font-size: 4rem;
       color: #FFFEF1;
+      padding: 0;
+      margin: 0;
+      text-shadow: 0 20px 30px rgba(0, 0, 0, 0.527);
   }
 
   .viewport-header p{
-    padding: 10px 0 40px 0;
-    color: white;
-    font-size: 2.4rem;
+    padding: 0 0 40px 0;
+    margin: 0;
+    color:#FFFEF1;
+    text-shadow: 0 20px 30px rgba(0, 0, 0, 0.795);
+    font-size: 2rem;
+    font-weight: bold;
   }
 
   .viewport-header .btn{
@@ -297,7 +364,7 @@ video {
   .tooltip .tooltiptext {
     visibility: hidden;
     /* width: 120px; */
- font-size: 1rem;
+ font-size: .8rem;
     color: rgb(201, 43, 43);
     text-align: center;
     border-radius: 6px;
@@ -364,4 +431,28 @@ video {
       width: 70%;
       margin: 0 auto;
       color: #5e5959;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #0E6C94;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  .sticky a {
+      font-size: 1rem;
+  }
+
+  .sticky img {
+      width: 50px;
+  }
+
+  .sticky .innerNav{
+      padding: 10px 0;
   }

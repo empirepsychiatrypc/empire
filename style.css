@@ -399,7 +399,7 @@ video {
   .modal-content {
     background: linear-gradient(45deg, #FFFEF1, #ffffff);
     margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
     border: 1px solid #888;
     border-radius: 0.3rem;
     width: 80%; /* Could be more or less, depending on screen size */
@@ -431,6 +431,7 @@ video {
       width: 70%;
       margin: 0 auto;
       color: #5e5959;
+      padding-bottom: 40px;
   }
 
   .sticky {
@@ -447,6 +448,7 @@ video {
 
   .sticky a {
       font-size: 1rem;
+     
   }
 
   .sticky img {
@@ -456,3 +458,11 @@ video {
   .sticky .innerNav{
       padding: 10px 0;
   }
+
+  .lrg{
+      width: 100% !important;
+      font-size: 2rem;
+      border: 1px solid #0E6C94;
+  }
+
+  

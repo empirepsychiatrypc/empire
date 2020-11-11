@@ -64,21 +64,21 @@
             <h2>What We Treat</h2>
             <div class="bubbles">
                 <div class="bubbleTop">
-                    <div data-name="adhd" class="bubble">ADHD</div>
-                    <div data-name="anx" class="bubble">Anxiety</div>
-                    <div data-name="bip" class="bubble">Bipolar</div>
+                    <div data-name="adhd" class="bubble tooltip">ADHD <span class="tooltiptext">Click to learn more</span></div>
+                    <div data-name="anx" class="bubble tooltip">Anxiety <span class="tooltiptext">Click to learn more</span></div>
+                    <div data-name="bip" class="bubble tooltip">Bipolar <span class="tooltiptext">Click to learn more</span></div>
                 </div>
                 <div class="bubbleMid">
-                    <div data-name="depr" class="bubble">Depression</div>
-                    <div data-name="schiz" class="bubble b2">Schizophrenia</div>
+                    <div data-name="depr" class="bubble tooltip">Depression <span class="tooltiptext">Click to learn more</span></div>
+                    <div data-name="schiz" class="bubble tooltip">Schizophrenia <span class="tooltiptext">Click to learn more</span></div>
                 </div>
                 <div class="bubbleMid2">
-                    <div data-name="panA" class="bubble">Panic Attack</div>
-                    <div data-name="ptsd" class="bubble">PTSD</div>
-                    <div data-name="grief" class="bubble">Grief and Loss</div>
+                    <div data-name="panA" class="bubble tooltip">Panic Attack <span class="tooltiptext">Click to learn more</span></div>
+                    <div data-name="ptsd" class="bubble tooltip">PTSD <span class="tooltiptext">Click to learn more</span></div>
+                    <div data-name="grief" class="bubble tooltip">Grief and Loss <span class="tooltiptext">Click to learn more</span></div>
                 </div>
                 <div class="bubbleBottom">
-                    <div data-name="ocd" class="bubble">Obsessive-Compulsive Disorder (OCD)</div>
+                    <div data-name="ocd" class="bubble tooltip">Obsessive-Compulsive Disorder (OCD) <span class="tooltiptext">Click to learn more</span></div>
                 </div>
             </div>
       </div>
@@ -128,7 +128,7 @@
               <div class="bubbles">
                 <div class="bubbleMid">
                     <div class="bubble">Schedule Now</div>
-                    <div class="bubble b2">Contact Us</div>
+                    <div class="bubble">Contact Us</div>
                 </div>
                 <div class="social">
                     <a href=""><img src="/images/tw.png" alt="" ></a>
@@ -137,7 +137,18 @@
               </div>
           </div>
 </div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
 
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3 id="theTitle"></h3>
+      <p id="theBody"></p>
+    </div>
+  
+  </div>
+  <script src="info.js"></script>
     <script src="main.js"></script>
 </body>
 </html>

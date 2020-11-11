@@ -1,0 +1,289 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+nav{
+    width: 100%;
+    height: auto;
+    background:#0e6c9454;
+    position: absolute;
+    top: 0;
+    left: 0;
+  z-index: 99;
+}
+
+.innerNav{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    padding: 10px 0 20px 0;
+    grid-template-columns: 20% 80%;
+}
+
+#logo, .links{
+    width: 100%;
+
+}
+
+.links ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.links a {
+    text-decoration: none;
+    color:  white;
+    font-size: 1.3rem;
+    transition: 0.5s;
+}
+
+/* .links a:hover{
+    
+} */
+
+.btn{
+    background: #ffffff;
+    color: #0E6C94 !important;
+    border: 1px solid #ffffff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background: #0E6C94;
+    color: #ffffff !important;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.541);
+}
+main{
+    width: 100vw;
+    height: 80vh;
+    
+    overflow: hidden;
+}
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .viewport-header {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .viewport-header h1{
+      font-size: 4rem;
+      color: #FFFEF1;
+  }
+
+  .viewport-header p{
+    padding: 10px 0 40px 0;
+    color: white;
+    font-size: 2.4rem;
+  }
+
+  .viewport-header .btn{
+      font-size: 1.7rem;
+  }
+
+  .content{
+    background: linear-gradient(#0E6C94, #0e6c9400);
+  }
+
+  .content2{
+    background: linear-gradient(#0e6c9400, #0E6C94);
+  }
+
+.cards{
+    padding:100px 0;
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 1em;
+    
+}
+
+.card {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h2{
+    font-size: 2.5rem;
+    color: #FFFEF1;
+    margin: 0;
+    padding: 0;
+}
+
+.card p{
+    font-size: 1.2rem;
+    margin: 10px 0 30px 0;
+    color: #3b3b3b;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.card .btn {
+    font-size: 1.2rem;
+}
+
+.bubbles{
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.bubbleTop{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 1em;
+    text-align: center;
+    
+}
+
+.bubbleMid{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    text-align: center;
+    grid-gap: 1em;
+    margin: 50px auto;
+}
+
+.bubbleMid2{
+    width: 100%;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 1em;
+}
+
+.bubbleBottom{
+    margin: 50px auto;
+        width: 50%; 
+}
+.bubble{
+    background: #FFFEF1;
+    padding: 10px 30px;
+    border-radius: 50px;
+    width: auto;
+    font-size: 2rem;
+    margin: 0 auto;
+    color: #0E6C94;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.61);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.bubble:hover{
+    background:  #0E6C94;
+    color: #FFFEF1;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.466);
+}
+#whatWeTreat {
+    text-align: center;
+}
+
+#whatWeTreat h2{
+    font-size: 5rem;
+    color: #FFFEF1;
+}
+
+#whatWeTreat p{
+    color: #696969;
+}
+
+#covered{
+    width: 100%;
+  height:100vh;
+    text-align: center;
+    background: url(/images/backgroundSwoop.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#covered div{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#covered h2{
+    font-size: 3rem;
+    color: #0E6C94 ;
+    padding: 0;
+    margin: 0;
+}
+
+#covered p{
+    font-size: 2em;
+    line-height: 2.5rem;
+    padding: 0;
+    margin: 10px 0 30px 0;
+}
+
+
+
+#covered .btn{
+    background: #0E6C94 !important;
+    color: white !important;
+    font-size: 1.4rem;
+}
+
+#testimonials, #locations , #ready{
+    text-align: center;
+  
+}
+
+#testimonials, #ready{
+    text-align: center;
+    min-height: 50vh;
+}
+
+#testimonials h3, #locations  h3{
+    font-size: 3rem;
+    color: #0E6C94;
+}
+
+#ready h3{
+    font-size: 4rem;
+    color: #FFFEF1;
+}
+
+#testimonials .test {
+    padding: 20px 0 20px 0;
+}
+
+.ready img{
+    width: 100px;
+}

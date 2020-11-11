@@ -74,7 +74,7 @@ nav{
 } */
 
 .btn{
-    background: #ffffff;
+    background:#FFFEF1;
     color: #0E6C94 !important;
     border: 1px solid #ffffff;
     padding: 10px 20px;
@@ -379,6 +379,13 @@ video {
   
   .tooltip:hover .tooltiptext {
     visibility: visible;
+  }
+
+  .noBorder{
+      border:none;
+      width: 40%;
+      margin: 0 auto;
+      display: block;
   }
 
   /* The Modal (background) */

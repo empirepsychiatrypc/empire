@@ -14,13 +14,13 @@ body {
 }
 
 .big{
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 1.8rem;
 }
 
 h1, nav a, .btn {
     /* font-family: 'Cinzel Decorative', cursive; */
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
 }
 
 nav{
@@ -86,7 +86,7 @@ nav{
 }
 
 .links a:hover{
-    text-decoration: underline;
+    text-decoration: overline;
     color: #FFFEF1;
 }
 
@@ -174,10 +174,11 @@ video {
   .viewport-header h1{
 
       font-size: 6rem;
-      color: #0E6C94;
+     
+      color: #FFFEF1;
       padding: 0;
-      -webkit-text-stroke-width:1.2px;
-  -webkit-text-stroke-color: #FFFEF1;
+      /* -webkit-text-stroke-width:1.2px;
+  -webkit-text-stroke-color: #FFFEF1; */
       margin: 0;
       text-shadow: 0 20px 30px rgba(0, 0, 0, 0.527);
   }
@@ -461,7 +462,7 @@ video {
   #theTitle{
       color: #0E6C94;
       font-size: 2.5rem;
-      font-family: 'Abril Fatface', cursive;
+      font-family: 'Playfair Display', serif;
   }
 
   #theBody {
@@ -488,6 +489,11 @@ video {
   .sticky a {
       font-size: 1.4rem;
      
+  }
+
+  .sticky a:hover{
+
+      color: #b9b9b9;
   }
 
   .sticky img {

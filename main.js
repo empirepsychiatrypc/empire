@@ -80,16 +80,12 @@ function myFunction() {
   if (window.pageYOffset > sticky) {
     navbar.classList.add("sticky")
     document.querySelector('#logo img').src = '/images/WhiteTransparent.png'
-    document.getElementById('backToTopBtn').style.display = 'block'
+
   } else {
     navbar.classList.remove("sticky");
     document.querySelector('#logo img').src = '/images/BlueTransparent.png'
-    document.getElementById('backToTopBtn').style.display = 'none'
+
   }
 }
 
 
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}

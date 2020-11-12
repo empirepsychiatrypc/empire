@@ -13,14 +13,15 @@ body {
    
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Cinzel Decorative', cursive;
+h1, nav a, .btn {
+    /* font-family: 'Cinzel Decorative', cursive; */
+    font-family: 'Abril Fatface', cursive;
 }
 
 nav{
     width: 100%;
     height: auto;
-    background:#d3dbdf54;
+    background:#d3dbdf00;
     position: absolute;
     top: 0;
     left: 0;
@@ -44,6 +45,12 @@ nav{
 }
 
 #logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,9 +80,10 @@ nav{
     transition: 0.5s;
 }
 
-/* .links a:hover{
-    
-} */
+.links a:hover{
+    text-decoration: underline;
+    color: #FFFEF1;
+}
 
 .btn{
     background:#FFFEF1;
@@ -83,7 +91,7 @@ nav{
     border: 1px solid #ffffff;
     padding: 10px 20px;
     border-radius: 50px;
-    text-decoration: none;
+    text-decoration: none !important;
     transition: 0.5s;
 }
 
@@ -113,16 +121,17 @@ video {
   .viewport-header {
     position: relative;
     width: 100%;
-    height: 90vh;
-    text-align: left;
+    height: 100vh;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 0 50px 0;
-    padding-top: 100px;
+    /* margin: 0 0 50px 0; */
+    /* padding-top: 100px; */
      animation: fadeInLeft ease 3s ;
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
+    background:linear-gradient(to right,rgba(119, 119, 119, 0.692),rgba(0, 0, 0, 0));
   }
 
   @keyframes fadeInAnimation { 
@@ -162,7 +171,7 @@ video {
       font-size: 6rem;
       color: #0E6C94;
       padding: 0;
-      -webkit-text-stroke-width:1.5px;
+      -webkit-text-stroke-width:1.2px;
   -webkit-text-stroke-color: #FFFEF1;
       margin: 0;
       text-shadow: 0 20px 30px rgba(0, 0, 0, 0.527);
@@ -170,13 +179,14 @@ video {
 
   .viewport-header p{
     padding: 0 0 40px 0;
-    margin: 0;
-    -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #0E6C94;
+    margin: 0 auto;
+    width: 70%;
+    /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #0E6C94; */
     color:#FFFEF1;
     text-shadow: 0 20px 30px rgba(0, 0, 0, 0.795);
-    font-size: 3rem;
-    font-weight: bold;
+    font-size: 2.7rem;
+    /* font-weight: bold; */
   }
 
   .viewport-header .btn{
@@ -218,6 +228,7 @@ video {
     color: #FFFEF1;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans';
 }
 
 .card p{
@@ -468,12 +479,12 @@ video {
   }
 
   .sticky a {
-      font-size: 1rem;
+      font-size: 1.4rem;
      
   }
 
   .sticky img {
-      width: 50px;
+      width: 85px;
   }
 
   .sticky .innerNav{

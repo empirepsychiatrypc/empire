@@ -13,6 +13,7 @@
     
 
     <nav id="navbar">
+        
         <div class="innerNav">
             <div id="logo">
                 <img src="images/BlueTransparent.png" alt="">
@@ -27,7 +28,10 @@
                 </ul>
             </div>
         </div>
+        
+       <div onclick="openNav()" class="openMobile"><img src="/images/open.png" alt=""></div>
     </nav>
+  
     <video playsinline autoplay muted loop  id="bgvid">
         <source src="mainVid.mp4" type="video/mp4">
       </video>
@@ -152,6 +156,23 @@
     </div>
   
   </div>
+ <!-- The overlay -->
+ <div id="myNav" class="overlay">
+
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+    <!-- Overlay content -->
+    <div class="overlay-content">
+       <a  href="#">Home</a>
+       <a href="/about.html">About Us</a>
+       <a href="#whatWeTreat">What We Treat</a>
+       <a href="#">Fees</a>
+       <a class="btn" href="">Schedule Now</a>
+    </div>
+  
+  </div>
+  
 
   <script src="info.js"></script>
     <script src="main.js"></script>

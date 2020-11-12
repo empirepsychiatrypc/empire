@@ -7,6 +7,16 @@ let span = document.getElementsByClassName("close")[0];
 
 let allLinks = document.querySelectorAll('.links a')
 
+let mobileLinks = document.querySelectorAll('.overlay-content a')
+mobileLinks.forEach(link => {
+  link.addEventListener('click', function(){
+    setTimeout(() => {
+     closeNav() 
+    }, 1200)
+  })
+})
+
+
 allLinks.forEach(link => {
   link.addEventListener('click', showActive)
 })
@@ -99,4 +109,12 @@ function myFunction() {
   }
 }
 
+/* Open when someone clicks on the span element */
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
 
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}

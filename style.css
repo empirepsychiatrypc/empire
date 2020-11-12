@@ -86,7 +86,7 @@ nav{
 }
 
 .links a:hover{
-    text-decoration: overline;
+    /* text-decoration: overline; */
     color: #FFFEF1;
 }
 
@@ -508,6 +508,16 @@ video {
   .sticky .innerNav{
       padding: 10px 0;
   }
+
+  .active {
+      text-decoration: overline !important;
+  }
+
+  button{
+      font-size: 1.2rem;
+  }
+
+ 
 
   .lrg{
       width: 100% !important;

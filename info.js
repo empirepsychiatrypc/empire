@@ -5,7 +5,7 @@ let adhd = {
 
 let anx = {
     title: 'Anxiety',
-    body: `<p>Anxiety is a normal part of living. Everyone has anxiety to varying degrees. It
+    body: `<p><span class="big">Anxiety is a normal part of living.</span> Everyone has anxiety to varying degrees. It
     manifests physically as your heart beating fast, your face red and flushing, stomach
     roiling, hands shaking and clammy. It’s the feeling you get at the start of a roller
     coaster. But no one wants that feeling all day long. Or when socializing with others.
@@ -29,7 +29,7 @@ let anx = {
 
 let bip = {
     title: "Bipolar",
-    body: `<p>Bipolar disorder is one of the most commonly misunderstand conditions in the
+    body: `<p><span class="big">Bipolar disorder is one of the most </span> commonly misunderstand conditions in the
     mental health arena. It’s portrayed in movies, TV, news, and pop culture. It’s also
     often misdiagnosed, making bipolar disorder tricky to manage. It takes an average of
     10 years after symptom onset to receive the correct diagnosis. This is because mania
@@ -57,7 +57,7 @@ let bip = {
 
 let depr = {
     title: 'Depression',
-    body: `<p>It’s difficult for people without depression to truly understand what it feels like. “Just
+    body: `<p><span class="big">It’s difficult for people without depression</span> to truly understand what it feels like. “Just
     be thankful for what you have!”, or, “Fight through it and and focus on the positive.”
     These end up making you feel even worse. Yes, you want to fight it. Yes, you
     understand on a certain level that there is what to be happy for. But you have
@@ -92,7 +92,7 @@ let depr = {
 
 let schiz = {
     title: 'Schizophrenia',
-    body: `<p>We can go over the symptoms and overview of schizophrenia here, but a simple
+    body: `<p><span class="big">We can go over the symptoms</span> and overview of schizophrenia here, but a simple
     internet search will give you the technicalities. Instead, let’s delve into what some of
     our patients experience and what it feels like to have schizophrenia so you can relate
     on a personal level, or simply understand what it’s like to have the condition. It’s also
@@ -130,7 +130,7 @@ let schiz = {
 
 let panA = {
     title: 'Panick Attack',
-    body: `<p>It starts as a little tingly feeling in the back of your brain. A warm sensation. On its
+    body: `<p><span class="big">It starts as a little tingly feeling</span> in the back of your brain. A warm sensation. On its
     own, it can almost feel nice for a second. But the warmth turns red-hot, it burns and
     starts spreading. And it reaches your heart and your fingers and your legs, and you
     know that you’re dying. It squeezes you like a vise. “This is the end”, you think. Heart
@@ -154,7 +154,7 @@ let panA = {
 
 let ptsd = {
     title: 'PTSD',
-    body: `<p>PTSD can manifest in a multitude of ways and can be experienced by anyone who
+    body: `<p><span class="big">PTSD can manifest in a multitude of ways</span> and can be experienced by anyone who
     has had a traumatic experience in their life. The symptoms are not merely
     nightmares and outbursts that are often portrayed on TV.</p> <p>It can feel like you’re always on edge, irritable, uncomfortable around people, locked
     inside yourself, unable to just relax and have fun, unable to feel really positive
@@ -178,7 +178,7 @@ let ptsd = {
 
 let grief = {
     title: 'Grief and Loss',
-    body: `<p>Bereavement over a loss is a natural part of life and a healthy way to cope and find
+    body: `<p><span class="big">Bereavement over a loss</span> is a natural part of life and a healthy way to cope and find
     closure. Grief and sorrow can occur not only because the death of a loved one, but
     also from a failed relationship or a difficult break-up.</p> <p>Who’s to say that bereavement and mourning are issues worth addressing? After all,
     it’s normal and necessary. Grief is different for every person and every loss, and so
@@ -197,13 +197,10 @@ let grief = {
     it can take. We don’t judge, we simply support and create a healing plan specific for
     YOU.</p>`
 }
-function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-  }
+
 let ocd = {
     title: 'Obsessive-Compulsive Disorder (OCD)',
-    body: `<p>OCD is not a one-size-fits-all diagnosis, and is often greatly misunderstood. There are
+    body: `<p><span class="big">OCD is not a one-size-fits-all</span> diagnosis, and is often greatly misunderstood. There are
     multiple severity levels of OCD and different obsessions and compulsions that you
     could be dealing with.</p> <p>OCD feels like a losing battle against yourself; your brain is your own worst enemy.
     It’s a quest for control that is just out of reach. One of the most frustrating parts is

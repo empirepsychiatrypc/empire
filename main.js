@@ -5,7 +5,18 @@ let allBtns = document.querySelectorAll('#whatWeTreat .bubble')
 
 let span = document.getElementsByClassName("close")[0];
 
+let allLinks = document.querySelectorAll('.links a')
 
+allLinks.forEach(link => {
+  link.addEventListener('click', showActive)
+})
+
+function showActive(){
+  allLinks.forEach(l => {
+    l.classList.remove('active')
+  })
+  this.classList.add('active')
+}
 
 allBtns.forEach(btn => {
     btn.addEventListener('click', function() {

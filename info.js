@@ -1,6 +1,6 @@
 let adhd = {
     title: 'ADHD',
-    body: `<p>You have assignments due, reports to finish and a multitude of other life chores to complete in our fast-paced world. You know what you have to do and you’re smart enough to do it. Yet you can’t focus on one thing for more than a few moments. It’s frustrating living with ADHD. Sometimes you may want to pay attention to a task for more than a couple minutes and end up realizing you got distracted with something else a minute ago.</p> <p>ADHD doesn’t always manifest itself like shown on Television, especially in adult patients. It’s not simply having a fly in your field of vision and becoming distracted. We like to equate it as your brain being an internet browser with too many tabs open. Often, ADHD can feel like endless rivers of thoughts chained together through association, with a dollop of imagination thrown in.</p> <p> These symptoms are not detrimental in of itself; however, with life throwing so many obstacles and to-do lists our way, it’s important to be able to prioritize. Finishing a report might constitute as an 8 on the importance scale, taking out the garbage could be a 4, and checking your email a 3. ADHD can feel like every one of those is a huge blaring 10 - leaving you scrambling in various directions all at once. Many of our patients have only some of these symptoms, but not others - and some have all those described above. It’s why we tailor a specific treatment plan to each individual patient, achieving the most reasonable and effective balance that allows YOU to live the best life you can.</p>`
+    body: `<p><span class="big">You have assignments due</span>, reports to finish and a multitude of other life chores to complete in our fast-paced world. You know what you have to do and you’re smart enough to do it. Yet you can’t focus on one thing for more than a few moments. It’s frustrating living with ADHD. Sometimes you may want to pay attention to a task for more than a couple minutes and end up realizing you got distracted with something else a minute ago.</p> <p>ADHD doesn’t always manifest itself like shown on Television, especially in adult patients. It’s not simply having a fly in your field of vision and becoming distracted. We like to equate it as your brain being an internet browser with too many tabs open. Often, ADHD can feel like endless rivers of thoughts chained together through association, with a dollop of imagination thrown in.</p> <p> These symptoms are not detrimental in of itself; however, with life throwing so many obstacles and to-do lists our way, it’s important to be able to prioritize. Finishing a report might constitute as an 8 on the importance scale, taking out the garbage could be a 4, and checking your email a 3. ADHD can feel like every one of those is a huge blaring 10 - leaving you scrambling in various directions all at once. Many of our patients have only some of these symptoms, but not others - and some have all those described above. It’s why we tailor a specific treatment plan to each individual patient, achieving the most reasonable and effective balance that allows YOU to live the best life you can.</p>`
 }
 
 let anx = {
@@ -197,7 +197,10 @@ let grief = {
     it can take. We don’t judge, we simply support and create a healing plan specific for
     YOU.</p>`
 }
-
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
 let ocd = {
     title: 'Obsessive-Compulsive Disorder (OCD)',
     body: `<p>OCD is not a one-size-fits-all diagnosis, and is often greatly misunderstood. There are

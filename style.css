@@ -234,7 +234,7 @@ video {
     color: #FFFEF1;
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans';
+    font-family: 'Playfair Display', serif;
 }
 
 .card p{
@@ -242,7 +242,7 @@ video {
     margin: 10px 0 30px 0;
     color: #3b3b3b;
     line-height: 2rem;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .card .btn {
@@ -311,6 +311,7 @@ video {
 #whatWeTreat h2{
     font-size: 5rem;
     color: #FFFEF1;
+    font-family: 'Playfair Display', serif;
 }
 
 #whatWeTreat p{
@@ -337,6 +338,7 @@ video {
 #covered h2{
     font-size: 3rem;
     color: #0E6C94 ;
+    font-family: 'Playfair Display', serif;
     padding: 0;
     margin: 0;
 }
@@ -370,11 +372,14 @@ video {
 #testimonials h3, #locations  h3{
     font-size: 3rem;
     color: #0E6C94;
+    font-family: 'Playfair Display', serif;
+
 }
 
 #ready h3{
     font-size: 4rem;
     color: #FFFEF1;
+    font-family: 'Playfair Display', serif;
 }
 
 #testimonials .test {
@@ -511,30 +516,5 @@ video {
   }
 
 
-  #backToTopBtn{
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    
-    outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px 10px;/* Some padding */
-    border-radius: 100%; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-    font-family: 'Cinzel Decorative', cursive;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.596);
-    border: 5px outset rgb(184, 1, 1);
-    transition: 0.5s;
-  }
-  
-  #backToTopBtn:hover {
-      box-shadow: none;
-    background-color: rgb(255, 255, 255); 
-    color: red;
-  }
 
   

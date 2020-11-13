@@ -416,31 +416,11 @@ video {
     width: 100px;
 }
 
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-  }
-  
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    /* width: 120px; */
- font-size: .8rem;
-    color: rgb(201, 43, 43);
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-  
-    /* Position the tooltip */
-    position: absolute;
-    top: -30px;
-  left:10%;
-    z-index: 1;
-  }
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
+.leaf{
+    background: url(/images/leaf.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
 
   .noBorder{
       border:none;
@@ -537,8 +517,9 @@ video {
   
 
   .active {
-      text-decoration: overline !important;
-  }
+    color: black !important;
+}
+
 
   button{
       font-size: 1.2rem;
@@ -574,8 +555,7 @@ video {
     z-index: 1000; /* Sit on top */
     left: 0;
     top: 0;
-    background-color: rgb(0,0,0); /* Black fallback color */
-    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    background-color:rgba(16, 66, 100, 0.979); 
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
   }
@@ -610,6 +590,42 @@ video {
     top: 20px;
     right: 45px;
     font-size: 60px;
+  }
+.overlay .btn{
+    width: 50%;
+    margin: 0 auto;
+}
+  
+  @media only screen and (max-width: 1600px){
+    .links a{
+        font-size: 1rem;
+    }
+
+    nav .btn {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .viewport-header h1 {
+        font-size: 3rem;
+    }
+
+    .viewport-header p{
+        font-size: 2.4rem;
+        line-height: 2.2rem;
+    }
+
+    #covered{
+        background-size: 100% 80%;
+    }
+    #covered h2{
+        font-size: 2rem;
+    }
+
+    #covered p{
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+    }
   }
 
   @media only screen and (max-width: 1024px){
@@ -716,6 +732,11 @@ video {
 
      #covered {
          height: auto;
+         margin: 40px auto;
+     }
+
+     #covered h2{
+         font-size: 1.8rem;
      }
      #covered div{
          width: 90%;
@@ -728,5 +749,10 @@ video {
 
      .sticky .innerNav{
          padding: 10px;
+     }
+
+     #ready .bubble{
+         width: 50%;
+         margin: 0 auto;
      }
   }

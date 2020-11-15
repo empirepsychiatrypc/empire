@@ -2,6 +2,7 @@ let modal = document.getElementById("myModal");
 
 let allBtns = document.querySelectorAll('#whatWeTreat .bubble')
 
+let showTestBtn = document.getElementById('showTestBtn')
 
 let span = document.getElementsByClassName("close")[0];
 
@@ -118,3 +119,15 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
+
+
+if(showTestBtn){
+  showTestBtn.addEventListener('click', showTestimonials)
+}
+
+function showTestimonials() {
+  this.style.display = 'none'
+  document.querySelector('.hiddenTest').classList.add('fadeInUp')
+  document.querySelector('.hiddenTest').style.display = 'grid'
+}
+

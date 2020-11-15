@@ -630,12 +630,32 @@ video {
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    min-height: 70vh;
+    height: 70vh;
+   
+}
+.overlayAbout{
+    
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.274);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
+.overlayAbout div{
+    animation: fadeInDown ease 3s ;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+.about-header h1{
+    font-size: 5rem;
+    color: #FFFEF1;
+    font-family: 'Playfair Display', serif;
+}
+
+
 .colorWrap{
     width: 100%;
     height: 100%;

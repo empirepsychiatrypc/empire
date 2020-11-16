@@ -85,8 +85,10 @@ function showModal(name){
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
+if(span){
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
 }
 
 // When the user clicks anywhere outside of the modal, close it

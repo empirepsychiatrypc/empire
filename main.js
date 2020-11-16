@@ -18,23 +18,7 @@ mobileLinks.forEach(link => {
 })
 
 
-allLinks.forEach(link => {
-  link.addEventListener('click', showActive)
-})
 
-function showActive(){
-  allLinks.forEach(l => {
-    if(l.getAttribute('data-check' ) == 'noActive'){
-      l.classList.remove('active')
-     return
-    }else{
-     l.classList.remove('active')
-      this.classList.add('active')
-    }
-   
-  })
-  
-}
 
 allBtns.forEach(btn => {
     btn.addEventListener('click', function() {

@@ -24,9 +24,16 @@ allLinks.forEach(link => {
 
 function showActive(){
   allLinks.forEach(l => {
-    l.classList.remove('active')
+    if(l.getAttribute('data-check' ) == 'noActive'){
+      l.classList.remove('active')
+     return
+    }else{
+     l.classList.remove('active')
+      this.classList.add('active')
+    }
+   
   })
-  this.classList.add('active')
+  
 }
 
 allBtns.forEach(btn => {
@@ -128,6 +135,11 @@ if(showTestBtn){
 function showTestimonials() {
   this.style.display = 'none'
   document.querySelector('.hiddenTest').classList.add('fadeInUp')
-  document.querySelector('.hiddenTest').style.display = 'grid'
+  if(window.innerWidth <= 1024){
+    document.querySelector('.hiddenTest').style.display = 'block'
+  }else{
+    document.querySelector('.hiddenTest').style.display = 'grid'
+  }
+  
 }
 

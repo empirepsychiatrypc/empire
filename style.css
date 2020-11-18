@@ -186,18 +186,20 @@ video {
     /* margin: 0 0 50px 0; */
     /* padding-top: 100px; */
      
-    background:linear-gradient(var(--main-bg-color), white);
+    background:linear-gradient(var(--main-bg-color),rgba(255, 255, 255, 0.801) 10% );
 
   }
 
   .schedule-header h1{
-      color: var(--secondary);
+      color: var(--main-bg-color);
       font-size: 3rem;
       
   }
 
   .schedule-header h2{
-      color :white;
+      color :var(--main-bg-color);
+      width: 60%;
+      margin: 0 auto;
   }
 
   .scheduleOverlay{
@@ -262,7 +264,9 @@ video {
 }
 
 
-
+form .form-all{
+    border-radius: 0.3rem !important;
+}
 
 
   .fadeInLeft {
@@ -643,12 +647,14 @@ video {
   
 
  .contactWrap{
-     width: 50%;
+     width: 100%;
      margin: 0 auto;
      text-align: center;
-     
+     background: white;
  }
-
+#bigWhite{
+    width: 100%;
+}
 
   button{
       font-size: 1.2rem;

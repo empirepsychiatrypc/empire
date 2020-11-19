@@ -855,6 +855,10 @@ form .form-all{
     height: auto;
 
 }
+
+footer img{
+    width: 30px;
+}
     .feesOverlay{
        padding: 200px 0 100px 0;
        

@@ -21,7 +21,9 @@ mobileLinks.forEach(link => {
   })
 })
 
-footerClose.addEventListener('click', hideFooter)
+if(footer){
+  footerClose.addEventListener('click', hideFooter)
+}
 
 function hideFooter(){
   footer.style.display = 'none'

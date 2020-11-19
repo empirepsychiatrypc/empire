@@ -8,6 +8,10 @@ let span = document.getElementsByClassName("close")[0];
 
 let allLinks = document.querySelectorAll('.links a')
 
+let footer = document.querySelector('footer')
+let footerClose = document.querySelector('footer img')
+
+
 let mobileLinks = document.querySelectorAll('.overlay-content a')
 mobileLinks.forEach(link => {
   link.addEventListener('click', function(){
@@ -17,7 +21,11 @@ mobileLinks.forEach(link => {
   })
 })
 
+footerClose.addEventListener('click', hideFooter)
 
+function hideFooter(){
+  footer.style.display = 'none'
+}
 
 
 allBtns.forEach(btn => {

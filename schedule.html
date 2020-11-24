@@ -51,7 +51,7 @@
           </div>
       
       </div>
-      
+      <div id="result"></div>
     </header>
     
 
@@ -73,7 +73,47 @@
       </div>
     </div>
 
-    <script src="info.js"></script>
+
+    <script >
+let beenHere = localStorage.getItem("been-here");
+
+
+
+
+
+window.onload = function(){
+      setTimeout(() => {
+        if(beenHere){
+          document.getElementById('203205178857156').style.display = 'none'
+  document.getElementById("result").innerHTML = `<h2><span style="color:red">You've already filled out this form.</span> The next step is to click on the link below.</h2>
+                                                                                                <a href="${localStorage.getItem("been-here")}" >Patient Intake Form (Detailed)</a>
+                                                                                                <p>If you feel this is a mistake because you did not fill it out click the button below:</p>
+                                                                                                <button class="btn" id="resetStorage">I Need The Form</button>`
+                                                                                                document.getElementById('resetStorage').addEventListener('click', function(){
+                                                                                                  localStorage.clear();
+                                                                                                  window.location.reload()
+                                                                                                })
+}else{
+  var iframe = document.getElementById('203205178857156');
+        var innerDoc = (iframe.contentDocument) ? iframe.contentDocument : iframe.contentWindow.document;
+        let form = innerDoc.querySelector('form')
+        form.addEventListener('click', setStorage)
+        return beenHere = true
+}
+     
+
+      }, 2000)
+    }
+
+    function setStorage() {
+      
+      localStorage.setItem("been-here", "https://hipaa.jotform.com/203214923116041");
+     
+    }
+    </script>
+
     <script src="main.js"></script>
+
+    
   </body>
 </html>

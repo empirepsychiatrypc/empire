@@ -20,7 +20,21 @@ body {
     font-family: 'Open Sans', sans-serif;
    
 }
+#result{
+    position: fixed;
+    bottom:200px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
 
+#result a{
+    font-size: 24px;
+}
+
+#result p{
+    color: red;
+}
 footer{
     position: fixed;
     bottom: 0;

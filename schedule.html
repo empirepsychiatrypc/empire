@@ -36,7 +36,7 @@
       </div>
     </nav>
 
-    <header class="schedule-header">
+    <header class="schedule-header" id="schedule-header">
 
         <div class="scheduleOverlay">
           <div id="bigWhite">
@@ -51,9 +51,9 @@
           </div>
       
       </div>
-      <div id="result"></div>
+      
     </header>
-    
+    <div id="result"></div>
 
     
     <!-- The overlay -->
@@ -84,7 +84,8 @@ let beenHere = localStorage.getItem("been-here");
 window.onload = function(){
       setTimeout(() => {
         if(beenHere){
-          document.getElementById("result").style.padding = '20px'
+          document.getElementById("schedule-header").style.display = 'none'
+          document.getElementById("result").style.padding = '20px 0'
           document.getElementById('203205178857156').style.display = 'none'
           document.getElementById("result").innerHTML = `<h2><span style="color:red">You've already filled out this form.</span> The next step is to click on the link below.</h2>
                                                                                                 <a href="${localStorage.getItem("been-here")}" >Patient Intake Form (Detailed)</a>

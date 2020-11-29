@@ -94,19 +94,6 @@ let schiz = {
     title: 'Schizophrenia',
     body: `<p><span class="big">Below is what Schizophrenia can feel like</span>. It’s important to note that severity differs between individuals, and everyone's experiences is unique.</p>
 
- 
-
-    
-    
-     
-    
-    
-    
-     
-    
-     
-    
-  
     <p>Paranoia. You're not worried your co-workers are plotting to kill you. You know your co-workers are plotting to kill you. Even If there’s someplace inside you that knows it’s part of the condition, you can’t shake the certainty. For anyone without this disorder, imagine feeling like everyone is trying to harm or kill you, literally. Think about what kind of fear you’d live with everyday.</p>
     <p>Delusions. The songs on the radio are always about what you did recently and contain veiled messages, sometimes threats. The celebrities on TV and Youtube talk about you without speaking your name. There’s significance in everything around you and it all ties together. You always feel like you’re on the brink of figuring it all out. You don't know why so many people obsess over you, or why everyone around you is ‘in on it’ and lying about what they see. But you’re always so close to understanding why you were chosen and what everyone wants you to do. Your mind will come up with people and scenarios that aren’t real, but these circulate in your head so often you begin thinking that a person is real, or that something actually happened. It makes it difficult to tell reality from fiction.</p>
     <p>  Hallucinations. The voices can be hushed and whisper things that you can’t make sense of, but sometimes it gets so loud that you can’t focus on anything and you feel detached. Often times, they're pretty negative, telling you you’re stupid, worthless, that nobody likes you, that everything you do is pointless. It's having every insecurity about yourself constantly ringing in your ears. This makes having healthy self-esteem quite difficult.</p>

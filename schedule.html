@@ -89,7 +89,7 @@ window.onload = function(){
           document.getElementById('203205178857156').style.display = 'none'
           document.getElementById("result").innerHTML = `<h2><span style="color:red">You've already filled out this form.</span> The next step is to click on the link below.</h2>
                                                                                                 <a href="${localStorage.getItem("been-here")}" >Patient Intake Form (Detailed)</a>
-                                                                                                <p>If you feel this is a mistake because you did not fill it out click the button below:</p>
+                                                                                                <p>If you feel this is a mistake because you did not fill it out the original form click the button below:</p>
                                                                                                 <button class="btn" id="resetStorage">I Need The Form</button>`
            document.getElementById('resetStorage').addEventListener('click', function(){
            localStorage.clear();

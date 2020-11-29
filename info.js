@@ -57,36 +57,31 @@ let bip = {
 
 let depr = {
     title: 'Depression',
-    body: `<p><span class="big">It’s difficult for people without depression</span> to truly understand what it feels like. “Just
-    be thankful for what you have!”, or, “Fight through it and and focus on the positive.”
-    These end up making you feel even worse. Yes, you want to fight it. Yes, you
-    understand on a certain level that there is what to be happy for. But you have
-    depression, so none of that makes a difference. And being told that you can will your
-    way out of it reminds you that someone without this affliction can’t truly understand
-    what it feels like.</p> <p>Depression can continue for days, months, and even years until you may look back
-    and realize your relationships and health have fallen apart. You’ve given up on things
-    you were once passionate about, walking away from many of life’s opportunities
-    that were sent your way. It’s understandable, and here’s why…</p> <p>Depression can manifest differently for every person, but there are a few common
-    thought patterns, feelings, and physical manifestations that are hallmarks of
-    depression. The hallmark symptom is a loss of joy and happiness for things that
-    previously gave you those feelings. You may have a complete lack of motivation to
-    do anything. Your mind and body “shut down” and you watch the day pass at a
-    snail’s pace. You lose interest in friendships, not because you don’t like your friends,
-    but you simply can’t burden yourself with other people’s emotions while struggling
-    to deal with your own. When you wake up you ask yourself “what’s the point of
-    getting out of bed?” You feel as though you literally don&#39;t have the strength to get up
-    and face the day…</p> <p>It’s trying to laugh at a joke that isn&#39;t funny; trying to smile for a photo you don&#39;t
-    want to be in. It’s having no feelings, which can be worse than feeling sad or angry -
-    you want to be angry, but simply don&#39;t have the emotional strength for it. You either
-    over-eat, or barely eat anything at all from a complete lack of appetite. There are
-    levels to depression and you may have some or all of of the above, and maybe just a
-    mild version of it. Everyone has their own unique experience, and that’s why it’s very
-    important to us to know exactly what YOU’RE going through.</p> <p>The good news is you’ve taken the very difficult step of seeking help and finding
-    treatment. Or maybe you’ve been to other practitioners before, but you weren’t
-    helped the way you thought you’d be. We understand. But you’re here now, and we
-    can help you. Depression can be managed and treated. Our hundreds of patients
-    who are living better than they ever thought possible are a testament to that. Reach
-    out and let us help you, and even more so, show you how you can help yourself.</p>`
+    body: `<p><span class="big">Below is what Schizophrenia can feel like</span>. It’s important to note that severity differs between individuals, and everyone's experiences is unique.
+
+ 
+
+    Paranoia. You're not worried your co-workers are plotting to kill you. You know your co-workers are plotting to kill you. Even If there’s someplace inside you that knows it’s part of the condition, you can’t shake the certainty. For anyone without this disorder, imagine feeling like everyone is trying to harm or kill you, literally. Think about what kind of fear you’d live with everyday.
+    
+     
+    
+    Delusions. The songs on the radio are always about what you did recently and contain veiled messages, sometimes threats. The celebrities on TV and Youtube talk about you without speaking your name. There’s significance in everything around you and it all ties together. You always feel like you’re on the brink of figuring it all out. You don't know why so many people obsess over you, or why everyone around you is ‘in on it’ and lying about what they see. But you’re always so close to understanding why you were chosen and what everyone wants you to do. Your mind will come up with people and scenarios that aren’t real, but these circulate in your head so often you begin thinking that a person is real, or that something actually happened. It makes it difficult to tell reality from fiction.
+    
+     
+    
+     
+    
+    Hallucinations. The voices can be hushed and whisper things that you can’t make sense of, but sometimes it gets so loud that you can’t focus on anything and you feel detached. Often times, they're pretty negative, telling you you’re stupid, worthless, that nobody likes you, that everything you do is pointless. It's having every insecurity about yourself constantly ringing in your ears. This makes having healthy self-esteem quite difficult.
+    
+     
+    
+    Fear. You feel nothing and everything. Like you always have to watch your back and always have to be alert. It’s your greatest fear and no matter what you do, no matter what anyone says, you know in your head and heart that it will come to you and your fear will be realized. You feel this everyday.
+    
+     
+    
+     
+    
+    These are just some of the symptoms and experiences that our patients go through. Schizophrenia is a serious, debilitating affliction to live with. Most people hear the stories of failure, but there are plenty of successes. It’s not easy to control this disease. There are ups and downs and battles waged in the course of this condition. But it is possible to become stable and have relationships. We understand the disorder and what you’re experiencing. Everyone has a varying level of severity and differing symptoms. Our treatment will be individualized to you and aim to give you back your life.</p>`
 }
 
 

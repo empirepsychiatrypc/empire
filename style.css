@@ -29,7 +29,9 @@ body {
     background: var(--secondary);
    
 }
-
+.actingFooter {
+    text-align: center;
+}
 #result a{
     font-size: 24px;
 }
@@ -573,14 +575,23 @@ form .form-all{
     font-size: 1.4rem;
 }
 
-#testimonials, #locations , #ready{
+#testimonials, #ready{
     text-align: center;
   
 }
 
-#testimonials, #ready{
+#testimonials, #ready, #locations{
     text-align: center;
     min-height: 50vh;
+}
+
+
+
+#locations .addresses {
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto) );
 }
 
 #testimonials h3, #locations  h3{
@@ -588,6 +599,20 @@ form .form-all{
     color:  var(--main-bg-color);
     font-family: 'Playfair Display', serif;
 
+}
+
+#locations h4 {
+    color: var(--main-bg-color);
+}
+
+#locations a {
+    text-decoration: none;
+    color:rgba(16, 66, 100, 0.979);
+    font-size: 1rem;
+}
+
+#locations a:hover{
+    text-decoration: underline;
 }
 
 #ready h3{
